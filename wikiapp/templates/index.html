@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wikisearch</title>
+</head>
+<body>
+<h1> Assignment of Wikisearch</h1>
+<form action="/show/" method="post">
+    {%csrf_token%}
+    Enter The Word:<input type="text" name="search"><br>
+    <input type="submit" value="submit">
+</form>
+</body>
+</html>
